@@ -25,7 +25,7 @@ package org.jboss.as.quickstarts.rshelloworld;
 public class HelloService {
 
     String createHelloMessage(String name) {
-        return "Hello, ceci est un test" + name + "!";
+        return "Hello, ceci est un test, maintenant avec source tree" + name + "!";
     }
 
 }
